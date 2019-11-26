@@ -14,7 +14,7 @@ This is a collection of JSON examples to help users get familiar with the system
 Before using these examples you will need he following:
 
 - A Shotstack account and API key, register via the [website](https://shotstack.io).
-- Curl, Postman or another application or command line tool for making RESTful API requests
+- [Curl](https://curl.haxx.se/), [Postman](https://www.getpostman.com/) or another application or command line tool for making RESTful API requests
 
 Note: This readme provides examples using Curl
 
@@ -62,7 +62,7 @@ Take a note of the response id `d2b46ed6-998a-4d6b-9d91-b8cf0193a655` which we w
 
 ### Status Check
 
-Video redenring takes time, usually several seconds per second of video, so a 30 second video might take 30 seconds to one minute to complete.
+Video rendering takes time, usually several seconds per second of video, so a 30 second video might take 30 seconds to one minute to complete.
 
 To check the status of  render task:
 
@@ -73,9 +73,9 @@ curl -X GET \
      https://api.shotstack.io/stage/render/d2b46ed6-998a-4d6b-9d91-b8cf0193a655
 ```
 
-- Replace YOUR_KEY_HERE with your staging environment key.
+- Replace `YOUR_KEY_HERE` with your staging environment key.
 
-- Notice we have appended the response id to the end of the request URL `https://api.shotstack.io/stage/render/d2b46ed6-998a-4d6b-9d91-b8cf0193a655`; you will need to make sure you use the id returned from your Post Render Task step.
+- Notice we have appended the response id to the end of the request URL `https://api.shotstack.io/stage/render/d2b46ed6-998a-4d6b-9d91-b8cf0193a655`; you will need to make sure you use the id returned from the Post Render Task step.
 
 #### Response
 
@@ -105,7 +105,7 @@ You can query the render endpoint above until your video has finished rendering.
 }
 ```
 
-- While the video is rendering the status will be set as `rendering` and there will be no `url` parameter.
+- While the video is rendering the status will be set to `rendering` and there will be no `url` parameter.
 
 - When complete the status will be set to `done` and a url to an mp4 (or gif) file will be available.
 
