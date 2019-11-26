@@ -115,4 +115,4 @@ You can query the render endpoint above until your video has finished rendering.
 
 | Example                | Description |
 | ---------------------- | ------------- |
-| ken-burns-effect.json  | Animate static images using zooming and panning, also know as the Ken Burns effect. |
+| [ken-burns-effect.json](./blob/master/examples/ken-burns-effect.json) | Animate static images using zooming and panning, also know as the Ken Burns effect. |
