@@ -2,7 +2,7 @@
     "timeline": {
         "soundtrack": {
             "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/music/freepd/advertising.mp3",
-            "effect": "fadeOut"
+            "effect": "fadeInFadeOut"
             
         },
         "background": "#000000",
