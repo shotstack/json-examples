@@ -1,0 +1,72 @@
+{
+    "timeline": {
+        "soundtrack": {
+            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/music/unminus/lit.mp3",
+            "effect": "fadeOut"
+        },
+        "background": "#000000",
+        "tracks": [
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "title",
+                            "text": "Shotstack Overlays",
+                            "style": "future",
+                            "size": "x-small",
+                            "position": "bottomLeft"
+                        },
+                        "start": 1,
+                        "length": 5,
+                        "transition": {
+                            "in": "fade",
+                            "out": "fade"
+                        }
+                    }
+                ]
+            },
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "video",
+                            "src": "https://shotstack-pubic-files.s3-ap-southeast-2.amazonaws.com/examples/overlays/shapes-transition.mov"
+                        },
+                        "start": 5.5,
+                        "length": 2.68
+                    }
+                ]
+            },
+            {
+                "clips": [
+                	{
+                        "asset": {
+                            "type": "video",
+                            "src": "https://shotstack-pubic-files.s3-ap-southeast-2.amazonaws.com/examples/overlays/clip1.mp4"
+                        },
+                        "start": 0,
+                        "length": 7,
+                        "transition": {
+                            "in": "fade"
+                        }
+                    },
+                    {
+                        "asset": {
+                            "type": "video",
+                            "src": "https://shotstack-pubic-files.s3-ap-southeast-2.amazonaws.com/examples/overlays/clip2.mp4"
+                        },
+                        "start": 7,
+                        "length": 5,
+                        "transition": {
+                            "out": "fade"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "output": {
+        "format": "mp4",
+        "resolution": "sd"
+    }
+}

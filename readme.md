@@ -117,3 +117,8 @@ You can query the render endpoint above until your video has finished rendering.
 | ---------------------- | ------------- | ---- |
 | [ken-burns-effect.json](./examples/ken-burns-effect.json) | Animate static images using zooming and panning, also know as the Ken Burns effect. | [Preview](https://youtu.be/3OTv1AGwmYM)
 | [picture-in-picture.json](./examples/picture-in-picture.json) | Picture in picture demo using layered tracks, clip position and scale. | [Preview](https://youtu.be/qCRNYEwSdDo)
+| [overlay-transition.json](./examples/overlay-transition.json) | Use QuickTime mov with alpha transparency to create cool transitions. | [Preview](https://youtu.be/TYacZ9gnoRA)
+
+
+
+
