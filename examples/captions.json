@@ -1,0 +1,120 @@
+{
+    "timeline": {
+        "background": "#000000",
+        "tracks": [
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "title",
+                            "text": "Hi, I'm Jeff the founder of Shotstack, the cloud video editing API.",
+                            "style": "subtitle",
+                            "color": "#ffffff",
+                            "size": "small",
+                            "background": "#000000",
+                            "position": "bottom",
+                            "offset": {
+                                "y": -0.4
+                            }
+                        },
+                        "start": 1.3,
+                        "length": 3.67,
+                        "fit": "crop",
+                        "position": "center"
+                    },
+                    {
+                        "asset": {
+                            "type": "title",
+                            "text": "This is a quick demo video to show you just how easy",
+                            "style": "subtitle",
+                            "color": "#ffffff",
+                            "size": "small",
+                            "background": "#000000",
+                            "position": "bottom",
+                            "offset": {
+                                "y": -0.4
+                            }
+                        },
+                        "start": 5.07,
+                        "length": 3.92,
+                        "fit": "crop",
+                        "position": "center"
+                    },
+                    {
+                        "asset": {
+                            "type": "title",
+                            "text": "and quick and simple it is to add captions onto your videos.",
+                            "style": "subtitle",
+                            "color": "#ffffff",
+                            "size": "small",
+                            "background": "#000000",
+                            "position": "bottom",
+                            "offset": {
+                                "y": -0.4
+                            }
+                        },
+                        "start": 9.09,
+                        "length": 4,
+                        "fit": "crop",
+                        "position": "center"
+                    },
+                    {
+                        "asset": {
+                            "type": "title",
+                            "text": "So follow along with the example using Node, PHP or Ruby and within no time",
+                            "style": "subtitle",
+                            "color": "#ffffff",
+                            "size": "small",
+                            "background": "#000000",
+                            "position": "bottom",
+                            "offset": {
+                                "y": -0.4
+                            }
+                        },
+                        "start": 13.199,
+                        "length": 5.4,
+                        "fit": "crop",
+                        "position": "center"
+                    },
+                    {
+                        "asset": {
+                            "type": "title",
+                            "text": "you should be adding captions to your own videos.",
+                            "style": "subtitle",
+                            "color": "#ffffff",
+                            "size": "small",
+                            "background": "#000000",
+                            "position": "bottom",
+                            "offset": {
+                                "y": -0.4
+                            }
+                        },
+                        "start": 18.699,
+                        "length": 2.36,
+                        "fit": "crop",
+                        "position": "center"
+                    }
+                ]
+            },
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "video",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/examples/captions-example.mp4",
+                            "volume": 1
+                        },
+                        "start": 0,
+                        "length": 21.08,
+                        "fit": "crop",
+                        "position": "center"
+                    }
+                ]
+            }
+        ]
+    },
+    "output": {
+        "format": "mp4",
+        "resolution": "sd"
+    }
+}
