@@ -18,9 +18,7 @@
                             }
                         },
                         "start": 1.3,
-                        "length": 3.67,
-                        "fit": "crop",
-                        "position": "center"
+                        "length": 3.67
                     },
                     {
                         "asset": {
@@ -36,9 +34,7 @@
                             }
                         },
                         "start": 5.07,
-                        "length": 3.92,
-                        "fit": "crop",
-                        "position": "center"
+                        "length": 3.92
                     },
                     {
                         "asset": {
@@ -54,9 +50,7 @@
                             }
                         },
                         "start": 9.09,
-                        "length": 4,
-                        "fit": "crop",
-                        "position": "center"
+                        "length": 4
                     },
                     {
                         "asset": {
@@ -72,9 +66,7 @@
                             }
                         },
                         "start": 13.199,
-                        "length": 5.4,
-                        "fit": "crop",
-                        "position": "center"
+                        "length": 5.4
                     },
                     {
                         "asset": {
@@ -90,9 +82,7 @@
                             }
                         },
                         "start": 18.699,
-                        "length": 2.36,
-                        "fit": "crop",
-                        "position": "center"
+                        "length": 2.36
                     }
                 ]
             },
@@ -105,9 +95,7 @@
                             "volume": 1
                         },
                         "start": 0,
-                        "length": 21.08,
-                        "fit": "crop",
-                        "position": "center"
+                        "length": 21.08
                     }
                 ]
             }
