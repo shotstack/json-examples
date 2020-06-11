@@ -1,0 +1,90 @@
+{
+    "timeline": {
+        "soundtrack": {
+            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/music/unminus/palmtrees.mp3",
+            "effect": "fadeOut"
+        },
+        "background": "#000000",
+        "tracks": [
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "title",
+                            "text": "Shotstack Luma Matte",
+                            "style": "marker",
+                            "size": "small"
+                        },
+                        "start": 0,
+                        "length": 4.6,
+                        "transition": {
+                            "in": "fade"
+                        }
+                    }
+                ]
+            },
+            {
+                "clips": [
+                	{
+                        "asset": {
+                            "type": "luma",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/examples/luma-mattes/paint-left.mp4"
+                        },
+                        "start": 4.5,
+                        "length": 1.12
+                    },
+                    {
+                        "asset": {
+                            "type": "video",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/footage/table-mountain.mp4"
+                        },
+                        "start": 0,
+                        "length": 5.62,
+                        "transition": {
+                            "in": "fade"
+                        }
+                    }
+                ]
+            },
+            {
+                "clips": [
+                	{
+                        "asset": {
+                            "type": "luma",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/examples/luma-mattes/paint-right.mp4"
+                        },
+                        "start": 10,
+                        "length": 1.12
+                    },
+                    {
+                        "asset": {
+                            "type": "video",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/footage/road.mp4"
+                        },
+                        "start": 4.5,
+                        "length": 6.62
+                    }
+                ]
+            },
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "video",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/footage/lake.mp4"
+                        },
+                        "start": 10,
+                        "length": 6,
+                        "transition": {
+                            "out": "fade"
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "output": {
+        "format": "mp4",
+        "resolution": "sd"
+    }
+}
