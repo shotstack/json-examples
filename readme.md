@@ -121,4 +121,4 @@ You can query the render endpoint above until your video has finished rendering.
 | [picture-in-picture.json](./examples/picture-in-picture.json) | Picture in picture demo using layered tracks, clip position and scale. | [Preview](https://youtu.be/qCRNYEwSdDo)
 | [overlay-transition.json](./examples/overlay-transition.json) | Use QuickTime mov with alpha transparency to create cool transitions. | [Preview](https://youtu.be/TYacZ9gnoRA)
 | [captions.json](./examples/captions.json) | Add captions to a video in time to the audio. | [Preview](https://youtu.be/8uEkL8DFRdI)
-| [luma-matte.json](./examples/luma-matte.json) | Luma matte demo to create transition effects between clips. | [Preview](https://youtu.be/PKvAPPeLpBw)
+| [luma-matte.json](./examples/luma-matte.json) | Luma matte demo to create transition effects between clips. | [Preview](https://youtu.be/WkPrJT-wMho)
