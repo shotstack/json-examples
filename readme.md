@@ -122,3 +122,4 @@ You can query the render endpoint above until your video has finished rendering.
 | [overlay-transition.json](./examples/overlay-transition.json) | Use QuickTime mov with alpha transparency to create cool transitions. | [Preview](https://youtu.be/TYacZ9gnoRA)
 | [captions.json](./examples/captions.json) | Add captions to a video in time to the audio. | [Preview](https://youtu.be/8uEkL8DFRdI)
 | [luma-matte.json](./examples/luma-matte.json) | Luma matte demo to create transition effects between clips. | [Preview](https://youtu.be/WkPrJT-wMho)
+| [watermark.json](./examples/watermark.json) | Apply a logo watermark to the corners of a video. | [Preview](https://youtu.be/RR6qMeevwIE)

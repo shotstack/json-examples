@@ -1,0 +1,120 @@
+{
+    "timeline": {
+        "soundtrack": {
+            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/music/unminus/happy.mp3",
+            "effect": "fadeOut"
+            
+        },
+        "background": "#000000",
+        "tracks": [
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "image",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/branding/logo-watermark-wht.png"
+                        },
+                        "start": 0,
+                        "length": 3,
+                        "fit": "none",
+                        "scale": 0.65,
+                        "opacity": 0.5,
+                        "position": "bottomRight",
+                        "offset": {
+                            "x": -0.04,
+                            "y": 0.04
+                        }
+                    },
+                    {
+                        "asset": {
+                            "type": "image",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/branding/logo-watermark-wht.png"
+                        },
+                        "start": 3,
+                        "length": 3,
+                        "fit": "none",
+                        "scale": 0.65,
+                        "opacity": 0.5,
+                        "position": "topLeft",
+                        "offset": {
+                            "x": 0.04,
+                            "y": -0.04
+                        }
+                    },
+                    {
+                        "asset": {
+                            "type": "image",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/branding/logo-watermark-wht.png"
+                        },
+                        "start": 6,
+                        "length": 3,
+                        "fit": "none",
+                        "scale": 0.65,
+                        "opacity": 0.5,
+                        "position": "topRight",
+                        "offset": {
+                            "x": -0.04,
+                            "y": -0.04
+                        }
+                    },
+                    {
+                        "asset": {
+                            "type": "image",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/branding/logo-watermark-wht.png"
+                        },
+                        "start": 9,
+                        "length": 3,
+                        "fit": "none",
+                        "scale": 0.65,
+                        "opacity": 0.5,
+                        "position": "bottomLeft",
+                        "offset": {
+                            "x": 0.04,
+                            "y": 0.04
+                        }
+                    }
+                ]
+            },
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "video",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/footage/city-timelapse.mp4"
+                        },
+                        "start": 0,
+                        "length": 3
+                    },
+                    {
+                        "asset": {
+                            "type": "video",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/footage/rain-on-roof.mp4"
+                        },
+                        "start": 3,
+                        "length": 3
+                    },
+                    {
+                        "asset": {
+                            "type": "video",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/footage/skate-park.mp4"
+                        },
+                        "start": 6,
+                        "length": 3
+                    },
+                    {
+                        "asset": {
+                            "type": "video",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/footage/skier.mp4"
+                        },
+                        "start": 9,
+                        "length": 3
+                    }
+                ]
+            }
+        ]
+    },
+    "output": {
+        "format": "mp4",
+        "resolution": "sd"
+    }
+}
