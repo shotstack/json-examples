@@ -1,0 +1,468 @@
+{
+    "timeline": {
+        "tracks": [
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>Create</p>",
+                            "css": "p { font-family: \"Lato\"; color: #ffffff; font-size: 30px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 0.096,
+                        "length": 0.6,
+                        "transition": {
+                            "in": "zoom"
+                        }
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>videos</p>",
+                            "css": "p { font-family: \"Lato\"; color: #ffffff; font-size: 30px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 0.72,
+                        "length": 0.62
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>using</p>",
+                            "css": "p { font-family: \"Lato\"; color: #ffffff; font-size: 30px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 1.38,
+                        "length": 0.22
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>using html</p>",
+                            "css": "p { font-family: \"Lato\"; color: #ffffff; font-size: 30px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 1.64,
+                        "length": 0.31
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>using html and</p>",
+                            "css": "p { font-family: \"Lato\"; color: #ffffff; font-size: 30px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 1.99,
+                        "length": 0.26
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>using html and css</p>",
+                            "css": "p { font-family: \"Lato\"; color: #ffffff; font-size: 30px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 2.29,
+                        "length": 0.31
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>with</p>",
+                            "css": "p { font-family: \"Lato\"; color: #000000; font-size: 30px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 2.64,
+                        "length": 0.56,
+                        "transition": {
+                            "in": "slideLeft"
+                        }
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>the</p>",
+                            "css": "p { font-family: \"Lato\"; color: #000000; font-size: 30px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 3.24,
+                        "length": 0.68
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>Shotstack</p>",
+                            "css": "p { font-family: \"Lato\"; color: #ffffff; font-size: 34px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 3.98,
+                        "length": 0.54,
+                        "effect": "zoomIn"
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>API</p>",
+                            "css": "p { font-family: \"Lato\"; color: #000000; font-size: 38px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 4.56,
+                        "length": 0.6,
+                        "transition": {
+                            "in": "slideLeft"
+                        }
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>AP</p>",
+                            "css": "p { font-family: \"Lato\"; color: #000000; font-size: 38px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 5.2,
+                        "length": 0.04
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>I</p>",
+                            "css": "p { font-family: \"Lato\"; color: #000000; font-size: 38px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 5.28,
+                        "length": 0.04
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>use</p>",
+                            "css": "p { font-family: \"Lato\"; color: #ffffff; font-size: 30px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 5.36,
+                        "length": 0.22
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>your</p>",
+                            "css": "p { font-family: \"Lato\"; color: #ffffff; font-size: 30px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 5.62,
+                        "length": 0.22
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>own</p>",
+                            "css": "p { font-family: \"Lato\"; color: #ffffff; font-size: 30px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 5.86,
+                        "length": 0.22
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>font</p>",
+                            "css": "p { font-family: \"Lato\"; color: #ffffff; font-size: 30px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 6.12,
+                        "length": 0.2
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p><span style='font-family: \"Permanent Marker\"; font-size: 38px;'>font</span></p>",
+                            "css": "p { font-family: \"Lato\"; color: #ffffff; font-size: 30px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 6.36,
+                        "length": 0.26
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>and</p>",
+                            "css": "p { font-family: \"Lato\"; color: #ffffff; font-size: 30px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 6.66,
+                        "length": 0.3
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>add</p>",
+                            "css": "p { font-family: \"Lato\"; color: #ffffff; font-size: 30px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 7,
+                        "length": 0.46
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p><span style=\"color: #25d3d0;\">color</span></p>",
+                            "css": "p { font-family: \"Lato\"; color: #ffffff; font-size: 30px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 7.5,
+                        "length": 0.3
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p><span style=\"color: #25d3d0;\">color</span> and</p>",
+                            "css": "p { font-family: \"Lato\"; color: #ffffff; font-size: 30px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 7.84,
+                        "length": 0.4
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p><span style=\"color: #fc73b4;\">color</span> and <i>style</i></span></p>",
+                            "css": "p { font-family: \"Lato\"; color: #ffffff; font-size: 30px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 8.28,
+                        "length": 0.38
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p><span style=\"color: #fc73b4;\">color</span> and <i><u>style</u></i></p>",
+                            "css": "p { font-family: \"Lato\"; color: #ffffff; font-size: 30px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 8.7,
+                        "length": 0.38
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>to</p>",
+                            "css": "p { font-family: \"Lato\"; color: #ffffff; font-size: 32px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 9.12,
+                        "length": 0.62
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>one</p>",
+                            "css": "p { font-family: \"Lato\"; color: #ffffff; font-size: 32px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 9.78,
+                        "length": 0.58
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p><s>one</s> ten</p>",
+                            "css": "p { font-family: \"Lato\"; color: #ffffff; font-size: 32px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 10.4,
+                        "length": 0.26
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p><s>one</s> <s>ten</s> hundreds</p>",
+                            "css": "p { font-family: \"Lato\"; color: #ffffff; font-size: 32px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 10.7,
+                        "length": 0.26
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p><s>one</s> <s>ten</s> <s>hundreds</s> <span style=\"color: #000000;\">thousands</span></p>",
+                            "css": "p { font-family: \"Lato\"; color: #ffffff; font-size: 32px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 11,
+                        "length": 0.58
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>of</p>",
+                            "css": "p { font-family: \"Lato\"; color: #000000; font-size: 34px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 11.62,
+                        "length": 0.18
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>videos</p>",
+                            "css": "p { font-family: \"Lato\"; color: #000000; font-size: 34px; text-align: center; font-weight: bold;    }",
+                            "width": 450,
+                            "height": 100,
+                            "position": "center"
+                        },
+                        "start": 11.84,
+                        "length": 1,
+                        "effect": "zoomIn",
+                        "transition": {
+                            "out": "zoom"
+                        }
+                    }
+                ]
+            },
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>&nbsp;</p>",
+                            "width": 1024,
+                            "height": 576,
+                            "background": "#ffffff"
+                        },
+                        "start": 2.64,
+                        "length": 1.32
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>&nbsp;</p>",
+                            "width": 1024,
+                            "height": 576,
+                            "background": "#ffffff"
+                        },
+                        "start": 4.56,
+                        "length": 0.76
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>&nbsp;</p>",
+                            "width": 1024,
+                            "height": 576,
+                            "background": "#25d3d0"
+                        },
+                        "start": 9.12,
+                        "length": 2.46
+                    },
+                    {
+                        "asset": {
+                            "type": "html",
+                            "html": "<p>&nbsp;</p>",
+                            "width": 1024,
+                            "height": 576,
+                            "background": "#fc73b4"
+                        },
+                        "start": 11.62,
+                        "length": 1.22
+                    }
+                ]
+            },
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "image",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/branding/logo-reverse.png"
+                        },
+                        "start": 12.88,
+                        "length": 4,
+                        "fit": "none",
+                        "transition": {
+                            "in": "slideUp"
+                        }
+                    }
+                ]
+            }
+        ],
+        "fonts": [
+            {
+                "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/fonts/Lato-Bold.ttf"
+            },
+            {
+                "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/fonts/IndieFlower-Regular.ttf"
+            },
+            {
+                "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/fonts/PermanentMarker-Regular.ttf"
+            }
+        ],
+        "background": "#000000",
+        "soundtrack": {
+            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/music/audiojungle/stomp_preview.mp3",
+            "effect": "fadeOut"
+        }
+    },
+    "output": {
+        "format": "mp4",
+        "resolution": "sd"
+    }
+}
