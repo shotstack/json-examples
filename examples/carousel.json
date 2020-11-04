@@ -1,0 +1,93 @@
+{
+    "timeline": {
+        "tracks": [
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "image",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/images/happy1.jpg"
+                        },
+                        "start": 0,
+                        "length": 2,
+                        "effect": "slideLeft",
+                        "transition": {
+                            "out": "carouselLeft"
+                        }
+                    },
+                    {
+                        "asset": {
+                            "type": "image",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/images/happy2.jpg"
+                        },
+                        "start": 1.4,
+                        "length": 2.6,
+                        "effect": "slideLeft",
+                        "transition": {
+                            "in": "carouselLeft",
+                            "out": "carouselLeft"
+                        }
+                    },
+                    {
+                        "asset": {
+                            "type": "image",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/images/happy3.jpg"
+                        },
+                        "start": 3.4,
+                        "length": 2.6,
+                        "effect": "slideLeft",
+                        "transition": {
+                            "in": "carouselLeft",
+                            "out": "carouselLeft"
+                        }
+                    },
+                    {
+                        "asset": {
+                            "type": "image",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/images/happy4.jpg"
+                        },
+                        "start": 5.4,
+                        "length": 2.6,
+                        "effect": "slideLeft",
+                        "transition": {
+                            "in": "carouselLeft",
+                            "out": "carouselLeft"
+                        }
+                    },
+                    {
+                        "asset": {
+                            "type": "image",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/images/happy5.jpg"
+                        },
+                        "start": 7.4,
+                        "length": 2.6,
+                        "effect": "slideLeft",
+                        "transition": {
+                            "in": "carouselLeft",
+                            "out": "carouselLeft"
+                        }
+                    },
+                    {
+                        "asset": {
+                            "type": "image",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/images/happy6.jpg"
+                        },
+                        "start": 9.4,
+                        "length": 2.6,
+                        "effect": "slideLeft",
+                        "transition": {
+                            "in": "carouselLeft"
+                        }
+                    }
+                ]
+            }
+        ],
+        "soundtrack": {
+            "src": "https://feeds.soundcloud.com/stream/802202977-unminus-deadfros5h.mp3"
+        }
+    },
+    "output": {
+        "format": "mp4",
+        "resolution": "sd"
+    }
+}

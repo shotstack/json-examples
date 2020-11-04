@@ -124,3 +124,4 @@ You can query the render endpoint above until your video has finished rendering.
 | [luma-matte.json](./examples/luma-matte.json) | Luma matte demo to create transition effects between clips. | [Preview](https://youtu.be/WkPrJT-wMho)
 | [watermark.json](./examples/watermark.json) | Apply a logo watermark to the corners of a video. | [Preview](https://youtu.be/RR6qMeevwIE)
 | [kinetic-text.json](./examples/kinetic-text.json) | Text animation in sync with the music. | [Preview](https://youtu.be/RUxpAnaUTh4)
+| [carousel.json](./examples/carousel.json) | Carousel animation transition using static images. | [Preview](https://youtu.be/BwZpkhLHfRA)
