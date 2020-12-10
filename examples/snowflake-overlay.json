@@ -1,0 +1,51 @@
+{
+    "timeline": {
+        "background": "#ffffff",
+        "tracks": [
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "title",
+                            "text": "SNOWFLAKES",
+                            "style": "chunk",
+                            "size": "x-large"
+                        },
+                        "start": 2.2,
+                        "length": 4,
+                        "opacity": 0.65,
+                        "transition": {
+                            "in": "fade",
+                            "out": "fade"
+                        }
+                    }
+                ]
+            },
+            {
+                "clips": [
+                    {
+                        "asset": {
+                            "type": "luma",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/luma-mattes/snowflakes.mov"
+                        },
+                        "start": 0,
+                        "length": 15
+                    },
+                    {
+                        "asset": {
+                            "type": "video",
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/scenes/winter-cinematic.mp4",
+                            "volume": 1
+                        },
+                        "start": 0,
+                        "length": 15
+                    }
+                ]
+            }
+        ]
+    },
+    "output": {
+        "format": "mp4",
+        "resolution": "sd"
+    }
+}
