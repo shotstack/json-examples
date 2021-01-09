@@ -17,13 +17,13 @@ Before using these examples you will need he following:
 
 - A Shotstack account and API key, register via the [website](https://shotstack.io).
 - [Curl](https://curl.haxx.se/), [Postman](https://www.getpostman.com/) or another application or command line tool for 
-- making RESTful API requests
+making RESTful API requests
 
 Note: This readme provides examples using Curl
 
 ## Usage
 
-To run the examples we will provide instructions using Curl. You could easily use an application like Postman or any 
+To run the examples we will provide instructions using Curl. You could easily use an application like Postman or  
 another application or tool that can post JSON formatted data to an API endpoint.
 
 This guide assumes Curl is already installed on your environment and you have a basic understanding of posting requests 
@@ -43,12 +43,10 @@ curl -X POST \
 ```
 
 - In the example above replace `YOUR_KEY_HERE` with your the staging key provided to you during registration.
-
 - `@examples/ken-burn-effect.json` is the example JSON file from the examples folder you wish to render. See the 
-- [Examples](#Examples) table below for a list of examples.
-
+[Examples](#Examples) table below for a list of examples.
 - Notice that we are using the stage endpoint `https://api.shotstack.io/stage/render` which is free for development and 
-- testing.
+testing.
 
 
 #### Response
@@ -66,7 +64,7 @@ If the POST is successful you will receive a response similar to:
 }
 ```
 
-Take a note of the response id `d2b46ed6-998a-4d6b-9d91-b8cf0193a655` which we will use in the next step.
+Take a note of the response id, i.e.: `d2b46ed6-998a-4d6b-9d91-b8cf0193a655`, which we will use in the next step.
 
 ### Status Check
 
@@ -83,10 +81,9 @@ curl -X GET \
 ```
 
 - Replace `YOUR_KEY_HERE` with your staging environment key.
-
 - Notice we have appended the response id to the end of the request URL 
-- `https://api.shotstack.io/stage/render/d2b46ed6-998a-4d6b-9d91-b8cf0193a655`; you will need to make sure you use the 
-- id returned from the Post Render Task step.
+`https://api.shotstack.io/stage/render/d2b46ed6-998a-4d6b-9d91-b8cf0193a655`; you will need to make sure you use the 
+id returned from the Post Render Task step.
 
 #### Response
 
@@ -119,9 +116,7 @@ You can query the render endpoint above until your video has finished rendering.
 ```
 
 - While the video is rendering the status will be set to `rendering` and there will be no `url` parameter.
-
 - When complete the status will be set to `done` and a url to an mp4 (or gif) file will be available.
-
 - Copy and paste the URL to your browser to preview the video or download via Curl, wget or via your browser.
 
 ## Examples
