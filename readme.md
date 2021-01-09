@@ -5,24 +5,30 @@
 Shotstack is video automation platform for creating video centric applications. The core of the platform is a highly 
 scalable, hosted API that can edit, process, manipulate and personalise 1000's of videos concurrently.
 
-The RESTful API uses JSON to describe the timeline of a video edit which can be posted to the `render` endpoint which then takes care of delivering a rendered mp4 video file.
+The RESTful API uses JSON to describe the timeline of a video edit which can be posted to the `render` endpoint which 
+then takes care of delivering a rendered mp4 video file.
 
-This is a collection of JSON examples to help users get familiar with the system and demonstrate basic video editing concepts and features of the system.
+This is a collection of JSON examples to help users get familiar with the system and demonstrate basic video editing 
+concepts and features of the system.
 
 ## Requirements
 
 Before using these examples you will need he following:
 
 - A Shotstack account and API key, register via the [website](https://shotstack.io).
-- [Curl](https://curl.haxx.se/), [Postman](https://www.getpostman.com/) or another application or command line tool for making RESTful API requests
+- [Curl](https://curl.haxx.se/), [Postman](https://www.getpostman.com/) or another application or command line tool for 
+- making RESTful API requests
 
 Note: This readme provides examples using Curl
 
 ## Usage
 
-To run the examples we will provide instructions using Curl. You could easily use an application like Postman or any aother application or tool that can post JSON formatted data to an API endpoint.
+To run the examples we will provide instructions using Curl. You could easily use an application like Postman or any 
+another application or tool that can post JSON formatted data to an API endpoint.
 
-This guide assumes Curl is already installed on your environment and you have a basic understanding of posting requests to an API. Even if you are familiar with workiing with API's it is worthwhile checking our [gettng started guide](https://shotstack.gitbook.io/docs/guides/getting-started) before using these examples.
+This guide assumes Curl is already installed on your environment and you have a basic understanding of posting requests 
+to an API. Even if you are familiar with working with API's it is worthwhile checking our 
+[getting started guide](https://shotstack.gitbook.io/docs/guides/getting-started) before using these examples.
 
 ### Post Render Task
 
@@ -38,14 +44,16 @@ curl -X POST \
 
 - In the example above replace `YOUR_KEY_HERE` with your the staging key provided to you during registration.
 
-- `@examples/ken-burn-effect.json` is the example JSON file from the examples folder you wish to render. See the [Examples](#Examples) table below for a list of examples.
+- `@examples/ken-burn-effect.json` is the example JSON file from the examples folder you wish to render. See the 
+- [Examples](#Examples) table below for a list of examples.
 
-- Notice that we are using the stage endpoint `https://api.shotstack.io/stage/render` which is free for development and testing.
+- Notice that we are using the stage endpoint `https://api.shotstack.io/stage/render` which is free for development and 
+- testing.
 
 
 #### Response
 
-If the POST is succesful you will receive a response similar to:
+If the POST is successful you will receive a response similar to:
 
 ```
 {
@@ -62,7 +70,8 @@ Take a note of the response id `d2b46ed6-998a-4d6b-9d91-b8cf0193a655` which we w
 
 ### Status Check
 
-Video rendering takes time, usually several seconds per second of video, so a 30 second video might take 30 seconds to one minute to complete.
+Video rendering takes time, usually several seconds per second of video, so a 30 second video might take 30 seconds to 
+one minute to complete.
 
 To check the status of  render task:
 
@@ -75,7 +84,9 @@ curl -X GET \
 
 - Replace `YOUR_KEY_HERE` with your staging environment key.
 
-- Notice we have appended the response id to the end of the request URL `https://api.shotstack.io/stage/render/d2b46ed6-998a-4d6b-9d91-b8cf0193a655`; you will need to make sure you use the id returned from the Post Render Task step.
+- Notice we have appended the response id to the end of the request URL 
+- `https://api.shotstack.io/stage/render/d2b46ed6-998a-4d6b-9d91-b8cf0193a655`; you will need to make sure you use the 
+- id returned from the Post Render Task step.
 
 #### Response
 
@@ -117,13 +128,13 @@ You can query the render endpoint above until your video has finished rendering.
 
 | Example File              | Description | Video |
 | ---------------------- | ------------- | ---- |
-| [ken-burns-effect.json](./examples/ken-burns-effect.json) | Animate static images using zooming and panning, also know as the Ken Burns effect. | [Preview](https://youtu.be/3OTv1AGwmYM)
-| [picture-in-picture.json](./examples/picture-in-picture.json) | Picture in picture demo using layered tracks, clip position and scale. | [Preview](https://youtu.be/qCRNYEwSdDo)
-| [overlay-transition.json](./examples/overlay-transition.json) | Use QuickTime mov with alpha transparency to create cool transitions. | [Preview](https://youtu.be/TYacZ9gnoRA)
 | [captions.json](./examples/captions.json) | Add captions to a video in time to the audio. | [Preview](https://youtu.be/8uEkL8DFRdI)
-| [luma-matte.json](./examples/luma-matte.json) | Luma matte demo to create transition effects between clips. | [Preview](https://youtu.be/WkPrJT-wMho)
-| [watermark.json](./examples/watermark.json) | Apply a logo watermark to the corners of a video. | [Preview](https://youtu.be/RR6qMeevwIE)
-| [kinetic-text.json](./examples/kinetic-text.json) | Text animation in sync with the music. | [Preview](https://youtu.be/RUxpAnaUTh4)
 | [carousel.json](./examples/carousel.json) | Carousel animation transition using static images. | [Preview](https://youtu.be/BwZpkhLHfRA)
-| [snowflake-overlay.json](./examples/snowflake-overlay.json) | Snowflakes alpha matte overlay using luma matte. | [Preview](https://youtu.be/PNzcWZS1IX4)
 | [crop.json](./examples/crop.json) | Crop effects using sections of a video. | [Preview](https://youtu.be/vE0r9vNtdZg)
+| [ken-burns-effect.json](./examples/ken-burns-effect.json) | Animate static images using zooming and panning, also know as the Ken Burns effect. | [Preview](https://youtu.be/3OTv1AGwmYM)
+| [kinetic-text.json](./examples/kinetic-text.json) | Text animation in sync with the music. | [Preview](https://youtu.be/RUxpAnaUTh4)
+| [luma-matte.json](./examples/luma-matte.json) | Luma matte demo to create transition effects between clips. | [Preview](https://youtu.be/WkPrJT-wMho)
+| [overlay-transition.json](./examples/overlay-transition.json) | Use QuickTime mov with alpha transparency to create cool transitions. | [Preview](https://youtu.be/TYacZ9gnoRA)
+| [picture-in-picture.json](./examples/picture-in-picture.json) | Picture in picture demo using layered tracks, clip position and scale. | [Preview](https://youtu.be/qCRNYEwSdDo)
+| [snowflake-overlay.json](./examples/snowflake-overlay.json) | Snowflakes alpha matte overlay using luma matte. | [Preview](https://youtu.be/PNzcWZS1IX4)
+| [watermark.json](./examples/watermark.json) | Apply a logo watermark to the corners of a video. | [Preview](https://youtu.be/RR6qMeevwIE)
