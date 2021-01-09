@@ -126,3 +126,4 @@ You can query the render endpoint above until your video has finished rendering.
 | [kinetic-text.json](./examples/kinetic-text.json) | Text animation in sync with the music. | [Preview](https://youtu.be/RUxpAnaUTh4)
 | [carousel.json](./examples/carousel.json) | Carousel animation transition using static images. | [Preview](https://youtu.be/BwZpkhLHfRA)
 | [snowflake-overlay.json](./examples/snowflake-overlay.json) | Snowflakes alpha matte overlay using luma matte. | [Preview](https://youtu.be/PNzcWZS1IX4)
+| [crop.json](./examples/crop.json) | Crop effects using sections of a video. | [Preview](https://youtu.be/vE0r9vNtdZg)
