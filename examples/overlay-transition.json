@@ -30,7 +30,7 @@
                     {
                         "asset": {
                             "type": "video",
-                            "src": "https://shotstack-pubic-files.s3-ap-southeast-2.amazonaws.com/examples/overlays/shapes-transition.mov"
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/overlays/shapes-transition.mov"
                         },
                         "start": 5.5,
                         "length": 2.68
@@ -42,7 +42,7 @@
                 	{
                         "asset": {
                             "type": "video",
-                            "src": "https://shotstack-pubic-files.s3-ap-southeast-2.amazonaws.com/examples/overlays/clip1.mp4"
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/footage/hot-air-balloons-1.mp4"
                         },
                         "start": 0,
                         "length": 7,
@@ -53,7 +53,7 @@
                     {
                         "asset": {
                             "type": "video",
-                            "src": "https://shotstack-pubic-files.s3-ap-southeast-2.amazonaws.com/examples/overlays/clip2.mp4"
+                            "src": "https://shotstack-assets.s3-ap-southeast-2.amazonaws.com/footage/hot-air-balloons-2.mp4"
                         },
                         "start": 7,
                         "length": 5,
