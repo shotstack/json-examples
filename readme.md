@@ -123,6 +123,7 @@ You can query the render endpoint above until your video has finished rendering.
 
 | Example File              | Description | Video |
 | ---------------------- | ------------- | ---- |
+| [1-min-stitched.json](./examples/captions.json) | A 1 minute video made from 5 second clips stitched in sequence. | [Preview](https://youtu.be/wDchsz8nmbo)
 | [captions.json](./examples/captions.json) | Add captions to a video in time to the audio. | [Preview](https://youtu.be/8uEkL8DFRdI)
 | [carousel.json](./examples/carousel.json) | Carousel animation transition using static images. | [Preview](https://youtu.be/BwZpkhLHfRA)
 | [crop.json](./examples/crop.json) | Crop effects using sections of a video. | [Preview](https://youtu.be/vE0r9vNtdZg)
