@@ -7,7 +7,7 @@
                     {
                         "asset": {
                             "type": "video",
-                            "src": "https://shotstack-pubic-files.s3-ap-southeast-2.amazonaws.com/examples/picture-in-picture/commentary.mp4",
+                            "src": "https://shotstack-assets.s3.ap-southeast-2.amazonaws.com/examples/picture-in-picture/commentary.mp4",
                             "volume": 1
                         },
                         "start": 0,
@@ -16,7 +16,7 @@
                     {
                         "asset": {
                             "type": "video",
-                            "src": "https://shotstack-pubic-files.s3-ap-southeast-2.amazonaws.com/examples/picture-in-picture/commentary.mp4",
+                            "src": "https://shotstack-assets.s3.ap-southeast-2.amazonaws.com/examples/picture-in-picture/commentary.mp4",
                             "volume": 1,
                             "trim": 5
                         },
@@ -28,7 +28,7 @@
                     {
                         "asset": {
                             "type": "video",
-                            "src": "https://shotstack-pubic-files.s3-ap-southeast-2.amazonaws.com/examples/picture-in-picture/commentary.mp4",
+                            "src": "https://shotstack-assets.s3.ap-southeast-2.amazonaws.com/examples/picture-in-picture/commentary.mp4",
                             "volume": 1,
                             "trim": 10
                         },
@@ -40,7 +40,7 @@
                     {
                         "asset": {
                             "type": "video",
-                            "src": "https://shotstack-pubic-files.s3-ap-southeast-2.amazonaws.com/examples/picture-in-picture/commentary.mp4",
+                            "src": "https://shotstack-assets.s3.ap-southeast-2.amazonaws.com/examples/picture-in-picture/commentary.mp4",
                             "volume": 1,
                             "trim": 12.5
                         },
@@ -56,7 +56,7 @@
                     {
                         "asset": {
                             "type": "video",
-                            "src": "https://shotstack-pubic-files.s3-ap-southeast-2.amazonaws.com/examples/picture-in-picture/code.mp4"
+                            "src": "https://shotstack-assets.s3.ap-southeast-2.amazonaws.com/examples/picture-in-picture/code.mp4"
                         },
                         "start": 5,
                         "length": 10
